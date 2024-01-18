@@ -6,8 +6,11 @@ public class GoogleBillboard {
 		for(int i = 0; i < args.length(); i++){
 			String dig = args.substring(i,i+10);
 			double bruh = Double.parseDouble(dig);
+			if(isPrime(bruh)){
+				System.out.println(dig);
+				return "";
+			}
 		}
-		System.out.println("Replace this string with your answer!");
 	}
 	
 
