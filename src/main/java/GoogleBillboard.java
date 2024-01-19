@@ -12,6 +12,7 @@ public static void main(final String[] args) {
   }
 }  
 }
+}
 public static boolean isPrime(double num)  
 {   
     if(num < 2){
