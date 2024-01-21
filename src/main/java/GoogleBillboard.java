@@ -17,7 +17,7 @@ public boolean isPrime(double num)
       if(num < 2){
         return false;
       }
-      if(num < 5){
+      if(num < 2147483647 && num != (int)num){
         return false;
       }
       for(int i = 2; i <= Math.sqrt(num); i++){
