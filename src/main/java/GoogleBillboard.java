@@ -1,23 +1,20 @@
-public class GoogleBillboard{
-  public final static String e = "2.7182818284590452353602874713526624977572470936999595749669676277240766303535475945713821785251664274274663919320030599218174135966290435";  
-  public void setup()  
+public final static String e = "27182818284590452353602874713526624977572470936999595749669676277240766303535475945713821785251664274274663919320030599218174135966290435";  
+public void setup()  
   {            
+    noLoop();
     for(int i = 0; i < e.length()-10; i++){
       String dig = e.substring(i,i+10);
-      double dNum = Double.parseDouble(dig);
-      if(isPrime(dNum)){
+      double bruh = Double.parseDouble(dig);
+      if(isPrime(bruh)){
         System.out.println(dig);
         break;
       }
     }
   }  
   
-  public boolean isPrime(double num)  
+public boolean isPrime(double num)  
   {   
       if(num < 2){
-        return false;
-      }
-      if(num != (int)num){
         return false;
       }
       for(int i = 2; i <= Math.sqrt(num); i++){
@@ -27,5 +24,3 @@ public class GoogleBillboard{
       }
       return true;  
   } 
-}
-
