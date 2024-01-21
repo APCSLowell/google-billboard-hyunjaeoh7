@@ -4,8 +4,8 @@ public class GoogleBillboard{
   {            
     for(int i = 0; i < e.length()-10; i++){
       String dig = e.substring(i,i+10);
-      double bruh = Double.parseDouble(dig);
-      if(isPrime(bruh)){
+      double dNum = Double.parseDouble(dig);
+      if(isPrime(dNum)){
         System.out.println(dig);
         break;
       }
