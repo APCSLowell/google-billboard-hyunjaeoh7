@@ -6,7 +6,7 @@ public void setup()
       String dig = e.substring(i,i+10);
       double bruh = Double.parseDouble(dig);
       if(isPrime(bruh)){
-        System.out.println(dig);
+        return dig;
         break;
       }
     }
