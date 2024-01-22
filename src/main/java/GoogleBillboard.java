@@ -4,7 +4,7 @@ public final static String e = "2.7182818284590452353602874713526624977572470936
 
 
 public static void main(String[] args){
-  setup()
+  setup();
 }
 public static void setup()  
   {            
